@@ -28,6 +28,7 @@ class Payment(ABC):
 class CardPayment(Payment):
     def pay(self, amount):
         return f"Paid {amount} via Card"
+    
 class UPIPayment(Payment):
     def pay(self, amount):
         return f"Paid {amount} via UPI"
@@ -36,10 +37,10 @@ class UPIPayment(Payment):
     
 # ✅ STEP 5: System Class
 class PaymentProcessor:
-    def __init__(self, payment_method: Payment):      
+    def __init__(self, payment_method: Payment):      # Dependency Injection - Injecting the payment method into the processor
         self.payment_method = payment_method
 
-    def process(self, amount):
+    def process(self, amount):         # Delegating the payment processing to the injected payment method
         return self.payment_method.pay(amount)
     
 
