@@ -1,0 +1,35 @@
+🧠 Interview Questions
+🧠 Q1: How do you structure an ML project?
+👉 Answer:
+“I structure ML projects using modular architecture with separate layers for data ingestion, feature engineering, modeling, pipelines, and configuration, ensuring scalability and maintainability.”
+
+🧠 Q2: Why use config files?
+👉 Answer:
+“To separate code from parameters, enabling reproducibility and easy experimentation.”
+
+🧠 Q3: Why not use notebooks for production?
+👉 Answer:
+“They lack modularity, version control, and scalability.”
+
+
+
+
+Interview Questions
+🧠 Q1: How do Kaggle winners structure code?
+👉 Answer:
+“They separate experimentation from production code, use modular design, and control experiments using configuration files.”
+
+🧠 Q2: Why separate train & inference?
+👉 Answer:
+“Training and inference have different workflows and dependencies, so separation improves clarity and scalability.”
+
+🧠 Q3: Why use config?
+👉 Answer:
+“To quickly experiment with different parameters without changing code.”
+
+
+Big companies use:
+Modular pipelines
+Config-driven systems
+Logging + monitoring
+CI/CD + testing

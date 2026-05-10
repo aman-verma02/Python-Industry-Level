@@ -42,3 +42,33 @@ models = [LogisticModel(), RandomForestModel()]
 
 for m in models:
     m.train("data")
+
+
+
+
+## Questions to Ask in Interview -------------------------------
+"""
+🧠 Q1: What is inheritance?
+“It allows a class to reuse and extend another class's functionality.”
+
+🧠 Q2: What is method overriding?
+“Redefining a parent method in child class.”
+
+🧠 Q3: What is MRO?
+“Order in which Python resolves methods in inheritance.”
+
+🧠 Q4: Why use super()?
+“To call parent methods safely following MRO.”
+
+🧠 Q5: When NOT to use inheritance?
+“When relationship is not ‘is-a’, or when it increases complexity.”
+"""
+
+
+
+
+"""
+BaseModel → defines rules
+Child models → implement behavior
+Pipeline → uses models
+"""
