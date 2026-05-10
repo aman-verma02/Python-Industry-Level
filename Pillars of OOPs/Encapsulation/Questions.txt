@@ -1,0 +1,72 @@
+🧠 Interview Questions (VERY IMPORTANT)
+🧠 Q1: What is encapsulation?
+“Encapsulation is the bundling of data with methods and restricting direct access to maintain control and integrity.”
+
+🧠 Q2: How is it implemented in Python?
+“Using private variables (name mangling) and property decorators.”
+
+🧠 Q3: Why important?
+“It prevents invalid states and ensures controlled interaction with data.”
+
+🧠 Q4: Is Python truly encapsulated?
+“No strict private enforcement, but conventions and name mangling provide controlled access.”
+
+
+Q1: Why is encapsulation important for security?
+👉 Answer:
+“Encapsulation prevents unauthorized modification of internal state and enforces validation, ensuring system integrity.”
+
+🧠 Q2: Give real vulnerability example
+👉 Answer:
+“Direct access to variables like balance or model state can allow invalid or malicious updates, leading to inconsistent or compromised systems.”
+
+🧠 Q3: How to secure internal state
+👉 Answer:
+private variables
+validation logic
+controlled methods
+
+
+Industry-Level Security Principles
+✔ 1. Least Privilege
+Only expose what is necessary
+
+✔ 2. Input Validation
+Never trust user input
+
+✔ 3. Immutable State (when possible)
+Avoid unexpected changes
+
+✔ 4. Controlled Access
+Use methods, not direct variables
+
+
+
+
+When to use what (CRYSTAL CLEAR)
+🟢 Use PUBLIC when:
+It’s part of API
+Users should call it
+🟡 Use PROTECTED when:
+Internal logic
+Child classes may reuse/override
+🔴 Use PRIVATE when:
+You want to avoid accidental override
+Sensitive/internal-only logic
+
+
+
+Final Answer to Your Confusion
+
+
+❓ “Then what’s the sense of hiding?”
+👉 Answer:
+Not for security
+For clean design + avoiding mistakes + safe inheritance
+
+
+❓ “Where do we actually use protected?”
+👉 Answer:
+Internal reusable logic
+Base classes (frameworks, pipelines, libraries)
+When child classes need access
