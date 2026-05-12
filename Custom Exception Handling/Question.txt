@@ -1,0 +1,36 @@
+Interview Questions -------------------
+
+🧠 Q1: Why custom exceptions?
+“To create meaningful, structured, and scalable error handling.”
+
+🧠 Q2: Where to handle exceptions?
+“At the layer where decisions can be made.”
+
+🧠 Q3: Why use exception hierarchy?
+“To group errors and allow flexible handling.”
+
+🧠 Q4: What is exception chaining?
+“Preserving original error while raising a higher-level exception.”
+
+
+Debugging Framework (HOW TO THINK)
+When system fails:
+
+🧠 Step 1: Identify where
+logs
+stack trace
+
+🧠 Step 2: Identify type
+data issue
+logic issue
+system issue
+
+🧠 Step 3: Check state
+variables
+object state
+
+🧠 Step 4: Reproduce
+👉 Always reproduce bug
+
+🧠 Step 5: Fix root cause
+👉 NOT symptoms
