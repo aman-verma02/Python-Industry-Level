@@ -263,8 +263,9 @@ Monitoring & Improvement
 ### 1. Clone the Repository
 
 ```
-git clone <your-repo-url>
-cd ml_project
+git clone https://github.com/aman-verma02/Python-Industry-Level.git
+cd Python-Industry-Level
+
 ```
 
 ---
