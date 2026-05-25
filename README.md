@@ -21,7 +21,7 @@ It follows **industry-standard repository structure** and implements all **four 
 
 ---
 
-## 🏗️ Project Structure
+## 🏗️ How to Structure our ML Projects
 
 ```
 ml_project/
