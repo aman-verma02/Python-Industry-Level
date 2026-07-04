@@ -10,7 +10,7 @@ class Car:
     ## Note: Class variables are shared across all instances of the class. If you modify a class variable using an instance, it creates a new instance variable for that instance, which shadows the class variable.
     ## arr = [1, 2, 3]   ## If we modify this list using one instance, it will affect all instances that share this class variable because lists are mutable. Mutable class variables (DANGEROUS)
 
-    def __init__(self, brand, speed):     ## constructor method to initialize attributes  ---  called when object of the class is created
+    def __init__(self, brand="ferari", speed=200):     ## constructor method to initialize attributes  ---  called when object of the class is created
         # attributes (data)
 
         self.brand = brand        ## Instance variable (brand) is created and assigned the value passed during object creation
